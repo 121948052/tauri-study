@@ -12,7 +12,6 @@ const greetMsg = ref("");
 const name = ref("");
 
 async function greet () {
-  debugger
   // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
   greetMsg.value = await invoke("greet", { name: name.value });
   const monitors = await availableMonitors();
