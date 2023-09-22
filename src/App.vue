@@ -8,6 +8,9 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import Greet from "./components/Greet.vue";
 import Open from "./components/TauriApi/Open.vue";
+import OS from "./components/TauriApi/OS.vue";
+import Notification from "./components/TauriApi/Notification.vue";
+
 </script>
 
 <template>
@@ -61,6 +64,8 @@ import Open from "./components/TauriApi/Open.vue";
 
     <Greet />
     <Open />
+    <OS />
+    <Notification />
   </div>
 </template>
 
